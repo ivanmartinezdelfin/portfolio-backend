@@ -10,7 +10,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #06343d;
+    background-color: #333;
     color: white;
     padding-top: 20px;
     text-align: center;
@@ -26,22 +26,25 @@ body {
 
 .sidebar a {
     display: block;
-    color: rgba(28, 26, 26, 0);
+    color: white;
     text-decoration: none;
     padding: 10px 10%;
     margin: 1px 0;
 }
 
 .sidebar a:hover {
-    background-color: #992020;
+    background-color: #575757;
 }
 
 .main-content {
     flex: 1;
     padding: 20px;
 }
-.backend-developer {
-    color:rgba(26, 211, 26, 0.944);
-    font-size: 20px;
-    font-weight: bold;
+
+/* Nueva regla para cambiar el color en el h2 */
+.portfolio-header {
+    color: #ffcc00; /* Cambia al color que desees */
+    font-size: 20px; /* Opcional: Ajusta el tamaño a tu preferencia */
+    font-weight: bold; /* Opcional: Ajusta grosor de la letra */
 }
+*//comentario
