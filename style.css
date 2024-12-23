@@ -37,12 +37,13 @@ body {
     background-color: #333;
 }
 
-.sidebar h2 {
+.sidebar h2.portfolio-header {
     display: block;
     margin: 10px auto;
     padding: 10px;
     border: 2px solid #575757;
     border-radius: 5px;
+    margin-bottom: 100px;
 
 }
 
@@ -56,9 +57,3 @@ body {
 }
 
 /* Nueva regla para cambiar el color en el h2 */
-.portfolio-header {
-    color: #087861; /* Cambia al color que desees */
-    font-size: 20px; /* Opcional: Ajusta el tamaño a tu preferencia */
-    font-weight: bold; /* Opcional: Ajusta grosor de la letra */
-    margin-bottom: 150px;
-}
