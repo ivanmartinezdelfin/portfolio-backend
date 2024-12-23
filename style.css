@@ -37,6 +37,15 @@ body {
     background-color: #333;
 }
 
+.sidebar h2 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #575757;
+    border-radius: 5px;
+
+}
+
 .sidebar a:hover {
     background-color: #575757;
 }
@@ -51,5 +60,5 @@ body {
     color: #087861; /* Cambia al color que desees */
     font-size: 20px; /* Opcional: Ajusta el tamaño a tu preferencia */
     font-weight: bold; /* Opcional: Ajusta grosor de la letra */
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
