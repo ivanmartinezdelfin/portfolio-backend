@@ -55,7 +55,32 @@ body {
 .main-content {
     flex: 1;
     padding: 20px;
+    box-sizing: border-box;
+}
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom:20px;
+}
+.main-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
+.interactive-text {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.interactive-text span {
+    display: inline-block;
+    transition: transform 0.3s, color 0.3s;
+    transform-origin: center;
+    /* Opcional: Para mejorar la legibiliadad */
+    /* user-select:none; */
+}
 
 
